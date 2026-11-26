@@ -6,7 +6,7 @@
 
 #define MAX_LOADSTRING 100 //макс длинна буфера для строки
 
-// Глобальные переменные:
+// Глобальные переменные:q
 HINSTANCE hInst;  // текущий экземпляр
 WCHAR szTitle[MAX_LOADSTRING];  // Текст строки заголовка
 WCHAR szWindowClass[MAX_LOADSTRING];// имя класса главного окна
@@ -58,7 +58,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     return (int)DialogBox(hInstance, MAKEINTRESOURCE(IDD_MAIN), nullptr, MainDlgProc);
 }
 
-
+//sw
 ATOM MyRegisterClass(HINSTANCE hInstance)
 {
     WNDCLASSEXW wcex;
